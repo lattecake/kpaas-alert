@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package pb;
+
+
+//The KpaasAlert service definition.
+service KpaasAlert {
+ rpc Alert    (AlertRequest   ) returns (AlertReply   );
+ rpc GetAlert (GetAlertRequest) returns (GetAlertReply);
+}
+message AlertRequest {}
+message AlertReply {}
+message GetAlertRequest {}
+message GetAlertReply {}

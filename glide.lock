@@ -1,0 +1,108 @@
+hash: a76c7d5e712ec474e167e5d9303f8f61d1b179cc1f3922741484979cc66d39d3
+updated: 2019-04-28T15:51:11.060371+08:00
+imports:
+- name: github.com/go-kit/kit
+  version: 12210fb6ace19e0496167bb3e667dcd91fa9f69b
+  subpackages:
+  - endpoint
+  - log
+  - log/level
+  - metrics
+  - transport/grpc
+  - transport/http
+- name: github.com/go-logfmt/logfmt
+  version: 07c9b44f60d7ffdfb7d8efe1ad539965737836dc
+- name: github.com/go-sql-driver/mysql
+  version: 72cd26f257d44c1114970e19afddcd812016007e
+- name: github.com/golang/protobuf
+  version: b5d812f8a3706043e23a9cd5babf2e5423744d30
+  subpackages:
+  - proto
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
+- name: github.com/jinzhu/gorm
+  version: e3987fd4b803c16497aa4dfd2e75db7a6a061a4e
+- name: github.com/jinzhu/inflection
+  version: 04140366298a54a039076d798123ffa108fff46c
+- name: github.com/kr/logfmt
+  version: b84e30acd515aadc4b783ad4ff83aff3299bdfe0
+- name: github.com/oklog/oklog
+  version: e3ad1c411c27b4bc18c5facb9331820d141a5a54
+  subpackages:
+  - pkg/group
+- name: github.com/oklog/run
+  version: 6934b124db28979da51d3470dadfa34d73d72652
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/sys
+  version: a129542de9ae0895210abff9c95d67a1f33cb93d
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: f21a4dfb5e38f5895301dc265a8def02365cc3d0
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: golang.org/x/tools
+  version: 550556f78a900afacb9e8b22219f5e5b5c6106db
+  subpackages:
+  - go/ssa/interp/testdata/src/strings
+- name: google.golang.org/appengine
+  version: 54a98f90d1c46b7731eb8fb305d2a321c30ef610
+  subpackages:
+  - cloudsql
+- name: google.golang.org/genproto
+  version: 09f6ed296fc66555a25fe4ce95173148778dfa85
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: 25c4f928eaa6d96443009bd842389fb4fa48664e
+  subpackages:
+  - balancer
+  - balancer/base
+  - balancer/roundrobin
+  - binarylog/grpc_binarylog_v1
+  - codes
+  - connectivity
+  - credentials
+  - credentials/internal
+  - encoding
+  - encoding/proto
+  - grpclog
+  - internal
+  - internal/backoff
+  - internal/balancerload
+  - internal/binarylog
+  - internal/channelz
+  - internal/envconfig
+  - internal/grpcrand
+  - internal/grpcsync
+  - internal/syscall
+  - internal/transport
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []

@@ -1,0 +1,10 @@
+app_name: kpaas-alert
+http:
+  port: 8080
+
+grpc:
+  port: 8082
+
+db:
+  driver: mysql
+  dburl: alert:helloworld@tcp(mysql:3306)/alert?charset=utf8mb4&parseTime=true&loc=Local&timeout=20m&collation=utf8mb4_unicode_ci
